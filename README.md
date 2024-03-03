@@ -1,4 +1,4 @@
-# BurstGPT: A Real-World Workload Dataset of ChatGPT and GPT-4 Serving Systems
+# A GPT-3.5 & GPT-4 Workload Trace to Optimize LLM Serving Systems 
 
 This repository contains public releases of a real-world trace dataset of LLM serving workloads for the benefit of the research and academic community.
 
