@@ -13,7 +13,7 @@ There are currently two files in `/data`:
 We are eager to assist researchers in exploring and leveraging the trace to its fullest potential. Please let us know of any issues or questions by sending email to [mailing list](mailto:ychen906@connect.hkust-gz.edu.cn).
 
 ## Future Plans
-1. We will update the time range of the trace.
+1. We will continue to update the time range of the trace.
 2. We will open-source the full benchmark suite for LLM inference soon.
 
 If the trace is utilized in your research, please ensure to reference our paper:
