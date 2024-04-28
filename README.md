@@ -18,8 +18,9 @@ There are currently two files in `/data`:
 
 ## Future Plans
 
-1. We will continue to update the time range of the trace.
-2. We will open-source the full benchmark suite for LLM inference soon.
+1. We will continue to update the time range of the trace and add the end time of each request.
+2. We will update the conversation log, including the question IDs, time stamps, etc,  in each conversation, for researchers to optimize conversation services.
+3. We will open-source the full benchmark suite for LLM inference soon.
 
 ## Paper
 
