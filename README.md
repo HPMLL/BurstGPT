@@ -10,10 +10,12 @@ There are currently two files in `/data`:
 
 - `BurstGPT_without_fails.csv` contains all of our trace in 2 month without failure. Totally 1404.3k lines.
 
-We are eager to assist researchers in exploring and leveraging the trace to its fullest potential. Please let us know of any issues or questions by sending email to [mailing list](mailto:ychen906@connect.hkust-gz.edu.cn).
+## Usage
+1. You may scale the RPS in the trace according to your evaluation setups.
+2. You may also model the patterns in the trace as indicated in our paper and scale the parameters in the models.
+3. If you have some specific needs, we are eager to assist researchers in exploring and leveraging the trace to its fullest potential. Please let us know of any issues or questions by sending email to [mailing list](mailto:ychen906@connect.hkust-gz.edu.cn).
 
 ## Future Plans
-
 1. We will continue to update the time range of the trace.
 2. We will open-source the full benchmark suite for LLM inference soon.
 
