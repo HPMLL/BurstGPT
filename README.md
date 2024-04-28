@@ -13,12 +13,17 @@ There are currently two files in `/data`:
 We are eager to assist researchers in exploring and leveraging the trace to its fullest potential. Please let us know of any issues or questions by sending email to [mailing list](mailto:ychen906@connect.hkust-gz.edu.cn).
 
 ## Future Plans
+
 1. We will continue to update the time range of the trace.
 2. We will open-source the full benchmark suite for LLM inference soon.
 
+## Paper
+
+<a href="https://arxiv.org/pdf/2401.17644.pdf" target="_blank"><img style="display: inline-block; margin:0; cursor:pointer;" alt="arXiv" src="https://img.shields.io/badge/arXiv-8A2BE2?style=flat-square&logo=arxiv&logoColor=FFFFFF"></a>
+
 If the trace is utilized in your research, please ensure to reference our paper:
 
-```
+```bibtex
 @misc{wang2024efficient,
       title={Towards Efficient and Reliable LLM Serving: A Real-World Workload Study}, 
       author={Yuxin Wang and Yuhan Chen and Zeyu Li and Zhenheng Tang and Rui Guo and Xin Wang and Qiang Wang and Amelie Chi Zhou and Xiaowen Chu},
@@ -32,7 +37,7 @@ If the trace is utilized in your research, please ensure to reference our paper:
 ## Main characteristics
 
 - Duration: 61 consecutive days in 2 consecutive months.
-- Dataset size: 1.4m lines, 50MB.
+- Dataset size: 1.4m lines, ~50MB.
 
 ## Schema
 
@@ -79,5 +84,3 @@ If the trace is utilized in your research, please ensure to reference our paper:
 
   *Figure 4: Statistics of Request and Response Tokens in BurstGPT.*<br>
 </div>
-
-
