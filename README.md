@@ -13,7 +13,7 @@ There are currently two files in `/data`:
 ## Usage
 1. You may scale the RPS in the trace according to your evaluation setups.
 2. You may also model the patterns in the trace as indicated in our paper and scale the parameters in the models.
-3. If you have some specific needs, we are eager to assist researchers in exploring and leveraging the trace to its fullest potential. Please let us know of any issues or questions by sending email to [mailing list](mailto:ychen906@connect.hkust-gz.edu.cn).
+3. If you have some specific needs, we are eager to assist you in exploring and leveraging the trace to its fullest potential. Please let us know of any issues or questions by sending email to [mailing list](mailto:ychen906@connect.hkust-gz.edu.cn).
 
 ## Future Plans
 1. We will continue to update the time range of the trace.
