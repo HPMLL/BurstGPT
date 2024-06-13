@@ -1,25 +1,32 @@
-# A GPT-3.5 & GPT-4 Workload Trace to Optimize LLM Serving Systems 
+# A GPT-3.5 & GPT-4 Workload Trace to Optimize LLM Serving Systems
+
+> [!IMPORTANT]
+> 🚧 Traces with new columns `SessionID` and `Elapsed time` are under collection now and will be available soon!
 
 This repository contains public releases of a real-world trace dataset of LLM serving workloads for the benefit of the research and academic community.
 
 This LLM serving is powered by Microsoft Azure.
 
-There are currently two files in `/data`:
+There are currently 4 files in `/data`:
 
-- `BurstGPT.csv` contains all of our trace in 2 month with some failure that `Response tokens` are 0s. Totally 1429.7k lines.
+- `BurstGPT_1.csv` contains all of our trace in the first 2 months with some failure that `Response tokens` are 0s. Totally 1429.7k lines.
 
-- `BurstGPT_without_fails.csv` contains all of our trace in 2 month without failure. Totally 1404.3k lines.
+- `BurstGPT_without_fails_1.csv` contains all of our trace in the first 2 months without failure. Totally 1404.3k lines.
+
+- `BurstGPT_2.csv` contains all of our trace in the second 2 months with some failure that `Response tokens` are 0s. Totally 3858.4k lines.
+
+- `BurstGPT_without_fails_2.csv` contains all of our trace in the second 2 months without failure. Totally 3784.2k lines.
 
 ## Usage
 
-1. You may scale the RPS in the trace according to your evaluation setups.
-2. You may also model the patterns in the trace as indicated in our paper and scale the parameters in the models.
+1. You may scale the average Requests Per Second (RPS) in the trace according to your evaluation setups.
+2. You may also model the patterns in the trace as indicated in our [paper](https://arxiv.org/pdf/2401.17644.pdf) and scale the parameters in the models.
 3. If you have some specific needs, we are eager to assist you in exploring and leveraging the trace to its fullest potential. Please let us know of any issues or questions by sending email to [mailing list](mailto:ychen906@connect.hkust-gz.edu.cn).
 
 ## Future Plans
 
 1. We will continue to update the time range of the trace and add the end time of each request.
-2. We will update the conversation log, including the question IDs, time stamps, etc,  in each conversation, for researchers to optimize conversation services.
+2. We will update the conversation log, including the session IDs, time stamps, etc, in each conversation, for researchers to optimize conversation services.
 3. We will open-source the full benchmark suite for LLM inference soon.
 
 ## Paper
@@ -41,8 +48,8 @@ If the trace is utilized in your research, please ensure to reference our paper:
 
 ## Main characteristics
 
-- Duration: 61 consecutive days in 2 consecutive months.
-- Dataset size: 1.4m lines, ~50MB.
+- Duration: 121 consecutive days in 4 consecutive months.
+- Dataset size: ~5.29m lines, ~188MB.
 
 ## Schema
 
@@ -53,7 +60,7 @@ If the trace is utilized in your research, please ensure to reference our paper:
 - `Total tokens`: Request tokens length plus response tokens length.
 - `Log Type`: the way users call the model, in conversation mode or using API, including `Conversation log` and `API log`.
 
-## Data Overview
+## Data Overview (First 2 Months)
 
 <!-- <div align="center">
   <img src="img/Fig1-4.png" alt="" width="800"/><br>
