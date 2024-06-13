@@ -1,0 +1,4 @@
+from framework_inference_call.framework_vllm import  vllm_inference_call_server
+from framework_inference_call.framework_lightllm import lightllm_inference_call_server
+
+__all__ = ["vllm_inference_call_server", "lightllm_inference_call_server"]
