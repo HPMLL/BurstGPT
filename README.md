@@ -1,4 +1,4 @@
-# A GPT-3.5 & GPT-4 Workload Trace to Optimize LLM Serving Systems
+# A CharGPT & GPT-4 Workload Trace to Optimize LLM Serving Systems
 
 > [!IMPORTANT]
 > 🚧 Traces with new columns `SessionID` and `Elapsed time` are under collection now and will be available soon!
