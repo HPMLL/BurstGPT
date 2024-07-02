@@ -7,6 +7,8 @@ authors:
   family-names: "Chen"
 - given-names: "Zeyu"
   family-names: "Li"
+- given-names: "Xueze"
+  family-names: "Kang"
 - given-names: "Zhenheng"
   family-names: "Tang"
 - given-names: "Rui"
@@ -19,7 +21,7 @@ authors:
   family-names: "Zhou"
 - given-names: "Xiaowen"
   family-names: "Chu"
-title: "Towards Efficient and Reliable LLM Serving: A Real-World Workload Study"
+title: "BurstGPT: A Real-world Workload Dataset to Optimize LLM Serving Systems"
 version: 1.0
 doi: 10.48550/arXiv.2401.17644
 
@@ -34,6 +36,8 @@ preferred-citation:
     family-names: "Chen"
   - given-names: "Zeyu"
     family-names: "Li"
+  - given-names: "Xueze"
+    family-names: "Kang"
   - given-names: "Zhenheng"
     family-names: "Tang"
   - given-names: "Rui"
@@ -48,5 +52,5 @@ preferred-citation:
     family-names: "Chu"
   doi: "10.48550/arXiv.2401.17644"
   journal: "arXiv preprint arXiv:2401.17644"
-  title: "Towards Efficient and Reliable LLM Serving: A Real-World Workload Study"
+  title: "BurstGPT: A Real-world Workload Dataset to Optimize LLM Serving Systems"
   year: 2024

@@ -7,7 +7,7 @@ This repository contains public releases of a real-world trace dataset of LLM se
 
 This LLM serving is powered by Microsoft Azure.
 
-There are currently 4 files in `/data`:
+There are currently 4 files in [Release v1.1](https://github.com/HPMLL/BurstGPT/releases/tag/v1.1):
 
 - `BurstGPT_1.csv` contains all of our trace in the first 2 months with some failure that `Response tokens` are 0s. Totally 1429.7k lines.
 
@@ -16,6 +16,8 @@ There are currently 4 files in `/data`:
 - `BurstGPT_2.csv` contains all of our trace in the second 2 months with some failure that `Response tokens` are 0s. Totally 3858.4k lines.
 
 - `BurstGPT_without_fails_2.csv` contains all of our trace in the second 2 months without failure. Totally 3784.2k lines.
+
+`BurstGPT_1.csv` is also in `/data` for you to use.
 
 ## Usage
 

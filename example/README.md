@@ -2,8 +2,8 @@
 
 Download `shareGPT_prompt.json`.
 
-Modified `/scripts/vllm_profile/server`.
+Modified parameters in `/scripts/server`.
 
 Start vllm engine.
 
-Run `/scripts/vllm_profile/server`.
+Run `/scripts/server.sh`.

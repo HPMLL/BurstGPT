@@ -22,7 +22,7 @@ async def vllm_inference_call_server(prompt, in_num, out_num, sampled_in_num, sa
         first_chunk_time = 0
         start_time = time.perf_counter()
         async with session.post(
-            f"http://localhost:{config.server_config['port']}/generate", json=generation_input
+            f"http://{config.server_config['host']}:{config.server_config['port']}/generate", json=generation_input
         ) as resp:
             if resp.status != 200:
                 print(f"Error: {resp.status} {resp.reason}")
