@@ -1,4 +1,4 @@
-# A ChatGPT & GPT-4 Workload Trace to Optimize LLM Serving Systems
+# A ChatGPT(GPT-3.5) & GPT-4 Workload Trace to Optimize LLM Serving Systems
 
 > [!IMPORTANT]
 > 🚧 Traces with new columns `SessionID` and `Elapsed time` are under collection now and will be available soon!
@@ -56,7 +56,7 @@ If the trace is utilized in your research, please ensure to reference our paper:
 ## Schema
 
 - `Timestamp`: request submission time, seconds from 0:00:00 on the first day.
-- `Model`: called models, including `ChatGPT` and `GPT-4`.
+- `Model`: called models, including `GPT-3.5` and `GPT-4`.
 - `Request tokens`: Request tokens length.
 - `Response tokens`: Response tokens length.
 - `Total tokens`: Request tokens length plus response tokens length.
