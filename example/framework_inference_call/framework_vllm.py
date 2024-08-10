@@ -16,7 +16,7 @@ async def vllm_inference_call_server(prompt, in_num, out_num, sampled_in_num, sa
             "prompt": prompt,
             "stream": config.server_config['stream'],
             "ignore_eos": False,
-            "max_tokens": out_num,
+            "max_tokens": int(out_num),
             "temperature": config.server_config['temperature'],
         }
         first_chunk_time = 0
@@ -53,7 +53,7 @@ async def vllm_inference_call_server(prompt, in_num, out_num, sampled_in_num, sa
             # should counter the output token length after gather all the outputs
     logger.tick_end(event_id, time.perf_counter())
 
-    save_query_json = {"event_id":event_id, "out_len":len(output["token"][0]), "out_len_expected": int(out_num), "in_len":int(in_num),"sampled_in_num": int(sampled_in_num), "sampled_out_len":int(sampled_out_num), "first_chunk_time":first_chunk_time, "total_chunk_time":total_chunk_time, "record_time":time.perf_counter()}
+    save_query_json = {"event_id":event_id, "out_len":len(output["text"][0]), "out_len_expected": int(out_num), "in_len":int(in_num),"sampled_in_num": int(sampled_in_num), "sampled_out_len":int(sampled_out_num), "first_chunk_time":first_chunk_time, "total_chunk_time":total_chunk_time, "record_time":time.perf_counter()}
 
     with open(logger.log_path, "a") as f:
         f.write("\n")

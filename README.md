@@ -9,11 +9,11 @@ This LLM serving is powered by Microsoft Azure.
 
 There are currently 4 files in [Release v1.1](https://github.com/HPMLL/BurstGPT/releases/tag/v1.1):
 
-- `BurstGPT_1.csv` contains all of our trace in the first 2 months with some failure that `Response tokens` are 0s. Totally 1429.7k lines.
+- `BurstGPT_1.csv` contains all of our trace in the first 2 months with some failure that `Response tokens` are `0`s. Totally 1429.7k lines.
 
 - `BurstGPT_without_fails_1.csv` contains all of our trace in the first 2 months without failure. Totally 1404.3k lines.
 
-- `BurstGPT_2.csv` contains all of our trace in the second 2 months with some failure that `Response tokens` are 0s. Totally 3858.4k lines.
+- `BurstGPT_2.csv` contains all of our trace in the second 2 months with some failure that `Response tokens` are `0`s. Totally 3858.4k lines.
 
 - `BurstGPT_without_fails_2.csv` contains all of our trace in the second 2 months without failure. Totally 3784.2k lines.
 
@@ -23,7 +23,7 @@ There are currently 4 files in [Release v1.1](https://github.com/HPMLL/BurstGPT/
 
 1. You may scale the average Requests Per Second (RPS) in the trace according to your evaluation setups.
 2. You may also model the patterns in the trace as indicated in our [paper](https://arxiv.org/pdf/2401.17644.pdf) and scale the parameters in the models.
-3. If you have some specific needs, we are eager to assist you in exploring and leveraging the trace to its fullest potential. Please let us know of any issues or questions by sending email to [mailing list](mailto:ychen906@connect.hkust-gz.edu.cn).
+3. Check our simple request generator demo in `example/`. If you have some specific needs, we are eager to assist you in exploring and leveraging the trace to its fullest potential. Please let us know of any issues or questions by sending email to [mailing list](mailto:ychen906@connect.hkust-gz.edu.cn).
 
 ## Future Plans
 
@@ -51,12 +51,12 @@ If the trace is utilized in your research, please ensure to reference our paper:
 ## Main characteristics
 
 - Duration: 121 consecutive days in 4 consecutive months.
-- Dataset size: ~5.29m lines, ~188MB.
+- Dataset size: ~5.29M lines, ~188MB.
 
 ## Schema
 
-- `Timestamp`: request submission time, seconds from 0:00:00 on the first day.
-- `Model`: called models, including `GPT-3.5` and `GPT-4`.
+- `Timestamp`: request submission time, seconds from `0:00:00` on the first day.
+- `Model`: called models, including `ChatGPT`(GPT-3.5) and `GPT-4`.
 - `Request tokens`: Request tokens length.
 - `Response tokens`: Response tokens length.
 - `Total tokens`: Request tokens length plus response tokens length.

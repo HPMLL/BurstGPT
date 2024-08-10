@@ -1,4 +1,3 @@
-
 class Config:
     def __init__(self, model_config=None, sampling_config=None, server_config=None, prompt_config=None, profile_config=None):
         self.model_config = model_config

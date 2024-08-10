@@ -2,16 +2,14 @@ import sys
 import os
 import argparse
 
-sys.path.append("../")
 from profile_server import ServerOnline, Config
 
 def add_parser_arg(parser):
     parser.add_argument('--data_path', type=str, 
-                        help='The path the alpaca json file',
-                        default="../../preprocess_data/shareGPT.json")
+                        help='The path of the alpaca json file',
+                        default="/preprocess_data/shareGPT.json")
     parser.add_argument('--model_path', type=str, 
-                        help='The path the tokenizer',
-                        default="/hpc2hdd/home/zli755/data/llama-2-7b-hf/")
+                        help='The path of the tokenizer')
     parser.add_argument('--log_path', type=str, 
                         help='The path the log file to save',
                         default="./server_log.json")
@@ -53,7 +51,7 @@ def add_parser_arg(parser):
 
     parser.add_argument("--burstgpt_path", type=str, 
                         help="BurstGPT trace path",
-                        default="/hpc2hdd/home/ychen906/repo/BurstGPT/data/BurstGPT_without_fails.csv")
+                        default="../data/BurstGPT_1.csv")
     
     parser.add_argument("--prompt_num", type=int,  default=500,
                         help="Prompt number, 500 by default")
@@ -61,8 +59,8 @@ def add_parser_arg(parser):
     parser.add_argument("--conv_or_api", type=str,  default='conv',
                         help="Using BurstGPT Conv or API trace, use conv by default")
     
-    parser.add_argument("--scale", type=float,  default=100,
-                        help="Scale trace, 100 means 100 times faster, use 100 by default")
+    parser.add_argument("--scale", type=float,  default=1,
+                        help="Scale trace, 100 means 100 times faster, use 1 by default")
 
 
 if __name__ == "__main__":

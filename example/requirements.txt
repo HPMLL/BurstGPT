@@ -1,10 +1,5 @@
-numpy
-transformers
-vllm
-argparse
-numpy
-matplotlib
-aiohttp
-torch
-contextlib
-bisect
+aiohttp>=3.8.6
+numpy>=1.25.1
+pandas>=2.2.2
+scipy>=1.14.0
+transformers>=4.41.1
