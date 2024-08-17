@@ -80,4 +80,4 @@ Contributions to improve this tool or extend its capabilities are welcome. Pleas
 
 ## License
 
-Under CC-BY-4.0 license.
+Under MIT license.
