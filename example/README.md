@@ -2,6 +2,12 @@
 
 This demo use of BurstGPT provides a simple request generator for vLLM serving framework.
 
+<div align="center">
+  <img src="../img/workload_generator2.png" alt="" width="900"/><br>
+
+  *Figure 1: Workload generator overview. It generates simulations of BurstGPT in a burst manner with two scaling method: 1. RPS Scaling scales the original BurstGPT data; 2. Modeled Scaling uses Gamma distribution parameters to generate request times and Zipf distribution parameter to generate prompt token lengths.*<br>
+</div>
+
 ## Prepare Environment
 
 Install requirments in a new venv, just run
