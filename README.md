@@ -38,13 +38,15 @@ There are currently 4 files in [Release v1.1](https://github.com/HPMLL/BurstGPT/
 If the trace is utilized in your research, please ensure to reference our paper:
 
 ```bibtex
-@misc{wang2024burstgpt,
-      title={BurstGPT: A Real-world Workload Dataset to Optimize LLM Serving Systems}, 
-      author={Yuxin Wang and Yuhan Chen and Zeyu Li and Xueze Kang and Zhenheng Tang and Xin He and Rui Guo and Xin Wang and Qiang Wang and Amelie Chi Zhou and Xiaowen Chu},
-      year={2024},
-      eprint={2401.17644},
-      archivePrefix={arXiv},
-      primaryClass={id='cs.DC' full_name='Distributed, Parallel, and Cluster Computing' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers fault-tolerance, distributed algorithms, stabilility, parallel computation, and cluster computing. Roughly includes material in ACM Subject Classes C.1.2, C.1.4, C.2.4, D.1.3, D.4.5, D.4.7, E.1.'}
+@inproceedings{BurstGPT,
+  author    = {Yuxin Wang and Yuhan Chen and Zeyu Li and Xueze Kang and Yuchu Fang and Yeju Zhou and Yang Zheng and Zhenheng Tang and Xin He and Rui Guo and Xin Wang and Qiang Wang and Amelie Chi Zhou and Xiaowen Chu},
+  title     = {{BurstGPT}: A Real-World Workload Dataset to Optimize LLM Serving Systems},
+  booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD ’25)},
+  year      = {2025},
+  address   = {Toronto, ON, Canada},
+  publisher = {ACM},
+  doi       = {https://doi.org/10.1145/3711896.3737413},
+  url       = {https://doi.org/10.1145/3711896.3737413},
 }
 ```
 
