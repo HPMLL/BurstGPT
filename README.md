@@ -51,13 +51,13 @@ There are currently 6 files in [Release v1.2](https://github.com/HPMLL/BurstGPT/
 ## Usage
 
 1. You may scale the average Requests Per Second (RPS) in the trace according to your evaluation setups.
-2. You may also model the patterns in the trace as indicated in our paper <a href="https://dl.acm.org/doi/10.1145/3711896.3737413"><img style="display: inline-block; margin:0; cursor:pointer;" src="https://img.shields.io/badge/ACMDL-3495EA?style=flat-square&"></a> and scale the parameters in the models.
+2. You may also model the patterns in the trace as indicated in our [paper](https://dl.acm.org/doi/10.1145/3711896.3737413) and scale the parameters in the models.
 3. Check our simple request generator demo in `example/`. If you have some specific needs, we are eager to assist you in exploring and leveraging the trace to its fullest potential. Please let us know of any issues or questions by sending email to [mailing list](mailto:y.chen@connect.hkust-gz.edu.cn).
 
 ## Paper
 
-<a href="https://arxiv.org/pdf/2401.17644.pdf" target="_blank"><img style="display: inline-block; margin:0; cursor:pointer;" alt="arXiv" src="https://img.shields.io/badge/arXiv-8A2BE2?style=flat-square&logo=arxiv&logoColor=FFFFFF"></a>
 <a href="https://dl.acm.org/doi/10.1145/3711896.3737413"><img style="display: inline-block; margin:0; cursor:pointer;" src="https://img.shields.io/badge/ACMDL-3495EA?style=flat-square&"></a>
+<a href="https://arxiv.org/pdf/2401.17644.pdf" target="_blank"><img style="display: inline-block; margin:0; cursor:pointer;" alt="arXiv" src="https://img.shields.io/badge/arXiv-8A2BE2?style=flat-square&logo=arxiv&logoColor=FFFFFF"></a>
 
 If the trace is utilized in your research, please ensure to reference our paper:
 
