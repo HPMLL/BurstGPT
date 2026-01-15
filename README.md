@@ -1,7 +1,7 @@
 # A ChatGPT(GPT-3.5) & GPT-4 Workload Trace to Optimize LLM Serving Systems
 
 > [!NOTE]
-> ✨ Traces with new columns `SessionID` and `Elapsed time` are available now!
+> ✨ Traces with new columns `Session ID` and `Elapsed time` are available now!
 
 This repository contains public releases of a real-world trace dataset of LLM serving workloads for the benefit of the research and academic community.
 
