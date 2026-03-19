@@ -20,7 +20,7 @@ This LLM serving is powered by Microsoft Azure.
 
 ## Data
 
-There are currently 6 files in [Release v1.2](https://github.com/HPMLL/BurstGPT/releases/tag/v1.2):
+There are currently 6 files in [Release v2.0](https://github.com/HPMLL/BurstGPT/releases/tag/v2.0):
 
 - `BurstGPT_1.csv` contains all of our trace in the first 2 months with some failure that `Response tokens` are `0`s. Totally 1429.7k lines.
 
